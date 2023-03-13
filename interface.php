@@ -1,4 +1,6 @@
-<!-- PHP file that displays the 5 data tables from the MySQL database. It uses Bootstrap 4, SQL queries, and other PHP files to create a simple interface that has a navigation bar and CUD (Create, Update, Delete) buttons -->
+<!-- PHP file that displays the 5 data tables from the MySQL database. It uses
+Bootstrap 4, SQL queries, and other PHP files to create a simple interface 
+that has a navigation bar and CUD (Create, Update, Delete) buttons -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

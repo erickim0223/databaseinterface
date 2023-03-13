@@ -1,4 +1,6 @@
-<!-- PHP script to verify uploaded file and uploads file to server if everything is okay -->
+<!-- PHP script to verify uploaded file and uploads file to server if 
+everything is okay. It also prints a button that will redirect to 
+inserttable.php, which will insert the XML data to the actual database -->
 <?php
     $target_dir = "xmlfile/";
     $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
