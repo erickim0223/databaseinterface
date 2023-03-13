@@ -1,0 +1,17 @@
+<!-- HTML file that accepts XML file and uploads it to the server -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Upload</title>
+    </head>
+<body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <p>Select an XML file to upload:</p>
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <br>
+        <br>
+        <input type="submit" value="Upload" name="submit">
+    </form>
+</body>
+</html>
