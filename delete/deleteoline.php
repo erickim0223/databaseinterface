@@ -1,7 +1,5 @@
 <!-- PHP script for deleting a row of the orderline table -->
 <?php
-    ob_start();
-
     // Process delete operation after confirmation
     if(isset($_POST["orderid"]) && !empty($_POST["orderid"]) &&
        isset($_POST["itemid"]) && !empty($_POST["itemid"])) {
@@ -21,7 +19,9 @@
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)) {
                 // Records deleted successfully. Redirect to landing page
-                header("Location: ../interface.php?x=" . rand() . "#orderline");
+                echo '<script type="text/javascript">
+                            window.location.href = ' . '"../interface.php?x=' . rand() . '#orderline";
+                            </script>';
                 exit;
             } else {
                 $error = mysqli_stmt_error($stmt);
@@ -39,12 +39,14 @@
         // Check existence of parameters
         if(empty(trim($_GET["orderid"]))) {
             // URL doesn't contain orderid parameter. Redirect to error page
-            header("Location: ../error.php");
+            echo '<script type="text/javascript">
+                            window.location.href = ' . '"../error.php";</script>';
             exit;
         }
         if(empty(trim($_GET["itemid"]))) {
             // URL doesn't contain itemid parameter. Redirect to error page
-            header("Location: ../error.php");
+            echo '<script type="text/javascript">
+                            window.location.href = ' . '"../error.php";</script>';
             exit;
         }
     }

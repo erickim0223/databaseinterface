@@ -1,6 +1,5 @@
 <!-- PHP script to create a row in orderline table -->
 <?php
-    ob_start();
     // Include config file
     require_once "../config.php";
     
@@ -43,7 +42,9 @@
                 // Attempt to execute the prepared statement
                 if(mysqli_stmt_execute($stmt)) {
                     // Records created successfully. Redirect to landing page
-                    header("Location: ../interface.php?x=" . rand() . "#orderline");
+                    echo '<script type="text/javascript">
+                            window.location.href = ' . '"../interface.php?x=' . rand() . '#orderline";
+                            </script>';
                     exit;
                 } else {
                     $error = mysqli_stmt_error($stmt);

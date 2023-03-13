@@ -40,7 +40,8 @@ data to the database -->
             $filename = trim($_GET["filename"]);
         } else {
             // URL doesn't contain filename parameter. Redirect to error page
-            header("Location: ../error.php");
+            echo '<script type="text/javascript">
+                            window.location.href = ' . '"../error.php";</script>';
             exit;
         }
 

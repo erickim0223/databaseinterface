@@ -1,6 +1,5 @@
 <!-- PHP script to update a row in orderline table -->
 <?php
-    ob_start();
     // Include config file
     require_once "../config.php";
     
@@ -43,7 +42,9 @@
                 // Attempt to execute the prepared statement
                 if(mysqli_stmt_execute($stmt)) {
                     // Records updated successfully. Redirect to landing page
-                    header("Location: ../interface.php?x=" . rand() . "#orderline");
+                    echo '<script type="text/javascript">
+                            window.location.href = ' . '"../interface.php?x=' . rand() . '#orderline";
+                            </script>';
                     exit;
                 } else {
                     $error = mysqli_stmt_error($stmt);
@@ -85,7 +86,8 @@
                         $itemnum = $row["itemid"];
                     } else {
                         // URL doesn't contain valid id. Redirect to error page
-                        header("Location: error.php");
+                        echo '<script type="text/javascript">
+                                window.location.href = ' . '"../error.php";</script>';
                         exit;
                     }
                 } else {
@@ -96,7 +98,8 @@
             mysqli_stmt_close($stmt);
         } else {
             // URL doesn't contain id parameter. Redirect to error page
-            header("Location: error.php");
+            echo '<script type="text/javascript">
+                            window.location.href = ' . '"../error.php";</script>';
             exit;
         }
     }

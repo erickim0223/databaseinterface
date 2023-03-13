@@ -1,6 +1,5 @@
 <!-- PHP script to create a row in ordertable -->
 <?php
-    ob_start();
     // Include config file
     require_once "../config.php";
     
@@ -60,7 +59,9 @@
                 // Attempt to execute the prepared statement
                 if(mysqli_stmt_execute($stmt)) {
                     // Records created successfully. Redirect to landing page
-                    header("Location: ../interface.php?x=" . rand() . "#ordertable");
+                    echo '<script type="text/javascript">
+                            window.location.href = ' . '"../interface.php?x=' . rand() . '#ordertable";
+                            </script>';
                     exit;
                 } else {
                     $error = mysqli_stmt_error($stmt);

@@ -1,8 +1,6 @@
 <!-- PHP script for deleting rows of tables other than the orderline 
 table -->
 <?php
-    ob_start();
-
     // Process delete operation after confirmation
     if(isset($_POST["id"]) && !empty($_POST["id"]) &&
        isset($_POST["table"]) && !empty($_POST["table"]) &&
@@ -23,7 +21,9 @@ table -->
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)) {
                 // Records deleted successfully. Redirect to landing page
-                header("Location: ../interface.php?x=" . rand() . "#" . trim($_POST["table"]));
+                echo '<script type="text/javascript">
+                            window.location.href = ' . '"../interface.php?x=' . rand() . '#' . trim($_POST["table"]) .
+                            '";</script>';
                 exit;
             } else {
                 $error = mysqli_stmt_error($stmt);
@@ -41,17 +41,20 @@ table -->
         // Check existence of parameters
         if(empty(trim($_GET["id"]))) {
             // URL doesn't contain id parameter. Redirect to error page
-            header("Location: ../error.php");
+            echo '<script type="text/javascript">
+                            window.location.href = ' . '"../error.php";</script>';
             exit;
         }
         if(empty(trim($_GET["table"]))) {
             // URL doesn't contain table parameter. Redirect to error page
-            header("Location: ../error.php");
+            echo '<script type="text/javascript">
+                            window.location.href = ' . '"../error.php";</script>';
             exit;
         }
         if(empty(trim($_GET["key"]))) {
             // URL doesn't contain key parameter. Redirect to error page
-            header("Location: ../error.php");
+            echo '<script type="text/javascript">
+                            window.location.href = ' . '"../error.php";</script>';
             exit;
         }
     }
