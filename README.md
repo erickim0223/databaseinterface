@@ -1,4 +1,8 @@
 # syncreonfinal
+###Database Design:
+![Alt text](screenshots/dbdesign.png "DB Design Screenshot")
+
+
 Initially I had incorporated ID’s but it didn’t say much information when displayed on data tables
 I use rand() to refresh the cache… probably not good
 
