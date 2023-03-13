@@ -52,8 +52,8 @@
                 
                 // Set parameters
                 $param_atype = $atype;
-                $param_alineone = $alinetwo;
-                $param_alinetwo = $alineone;
+                $param_alineone = $alineone;
+                $param_alinetwo = $alinetwo;
                 $param_name = $fullname;
                 
                 // Attempt to execute the prepared statement
