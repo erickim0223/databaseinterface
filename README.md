@@ -10,17 +10,17 @@ If you want to go straight to the interface, which already has the sample data i
 - [Folder and File Descriptions](#folder-and-file-descriptions)
 
 ## How to upload XML file:
-![Upload Screenshot](screenshots/upload.png "Upload Screenshot") <br>
-![Upload Error Screenshot](screenshots/uploaderror.png "Upload Error Screenshot") <br>
-![File Upload Screenshot](screenshots/fileupload.png "File Upload Screenshot") <br>
-![Insert to Table Screenshot](screenshots/inserttotable.png "Insert to Table Screenshot")
+<img src="screenshots/upload.png" width="25%">
+<img src="screenshots/uploaderror.png" width="50%">
+<img src="screenshots/fileupload.png" width="25%">
+<img src="screenshots/inserttotable.png" width="50%">
 
 ## How to use interface:
-![Interface Screenshot](screenshots/dbinterface.png "Interface Screenshot") <br>
-![Create Screenshot](screenshots/createrow.png "Create Screenshot") <br>
-![Validation Screenshot](screenshots/validation.png "Validation Screenshot") <br>
-![Update Screenshot](screenshots/updaterow.png "Update Screenshot") <br>
-![Delete Screenshot](screenshots/delete.png "Delete Screenshot")
+<img src="screenshots/dbinterface.png" width="75%">
+<img src="screenshots/createrow.png" width="50%">
+<img src="screenshots/validation.png" width="50%">
+<img src="screenshots/updaterow.png" width="50%">
+<img src="screenshots/delete.png" width="50%">
 
 ## Database Design:
 ![Database Design Screenshot](screenshots/dbdesign.png "DB Design Screenshot")
