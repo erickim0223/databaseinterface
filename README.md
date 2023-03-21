@@ -1,7 +1,7 @@
-# syncreonfinal
+# databaseinterface
 Languages/Technologies used: PHP, HTML, CSS, JavaScript, jQuery, Bootstrap 4, MySQL <br>
-If you want to upload your own XML file, click here: [https://erick.sgedu.site/syncreon/upload.html](https://erick.sgedu.site/syncreon/upload.html) <br>
-If you want to go straight to the interface, which already has the sample data inserted, click here: [https://erick.sgedu.site/syncreon/interface.php](https://erick.sgedu.site/syncreon/interface.php)
+If you want to upload your own XML file, click here: [https://erick.sgedu.site/databaseinterface/upload.html](https://erick.sgedu.site/databaseinterface/upload.html) <br>
+If you want to go straight to the interface, which already has the sample data inserted, click here: [https://erick.sgedu.site/databaseinterface/interface.php](https://erick.sgedu.site/databaseinterface/interface.php)
 
 ## Contents:
 - [How to upload XML file](#how-to-upload-xml-file)
@@ -14,7 +14,7 @@ If you want to go straight to the interface, which already has the sample data i
 <img src="screenshots/upload.png" width="25%"> 
 <hr/>
 
-2a. If the file name is already taken in the server, it will give you this error. Try to name the file something else and go back to [https://erick.sgedu.site/syncreon/upload.html](https://erick.sgedu.site/syncreon/upload.html). <br>
+2a. If the file name is already taken in the server, it will give you this error. Try to name the file something else and go back to [https://erick.sgedu.site/databaseinterface/upload.html](https://erick.sgedu.site/databaseinterface/upload.html). <br>
 <img src="screenshots/uploaderror.png" width="50%"> 
 <hr/>
 
