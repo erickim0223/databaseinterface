@@ -1,4 +1,4 @@
-# databaseinterface
+# Database Interface
 Languages/Technologies used: PHP, HTML, CSS, JavaScript, jQuery, Bootstrap 4, MySQL <br>
 If you want to upload your own XML file, click here: [https://erick.sgedu.site/databaseinterface/upload.html](https://erick.sgedu.site/databaseinterface/upload.html) <br>
 If you want to go straight to the interface, which already has the sample data inserted, click here: [https://erick.sgedu.site/databaseinterface/interface.php](https://erick.sgedu.site/databaseinterface/interface.php)
