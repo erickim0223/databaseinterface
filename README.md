@@ -1,8 +1,27 @@
 # Database Interface
-Languages/Technologies used: PHP, HTML, CSS, JavaScript, jQuery, Bootstrap 4, MySQL <br>
+This project is a responsive personal website to introduce myself and showcase some of my projects. I made this project to learn Bootstrap and enhance my web development ability. <br>
+Languages/Technologies used:
+- PHP
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- Bootstrap 4
+- MySQL 
+<br>
+
 If you want to upload your own XML file, click here: [https://erick.sgedu.site/databaseinterface/upload.html](https://erick.sgedu.site/databaseinterface/upload.html) <br>
-If you want to go straight to the interface, which already has the sample data inserted, click here: [https://erick.sgedu.site/databaseinterface/interface.php](https://erick.sgedu.site/databaseinterface/interface.php) <br>
-Plan to add: search capability
+If you want to go straight to the interface, which already has sample data inserted, click here: [https://erick.sgedu.site/databaseinterface/interface.php](https://erick.sgedu.site/databaseinterface/interface.php) <br>
+Challenges:
+- Learning PHP
+- Interacting with MySQL database
+
+Plan to add:
+- Search capability
+- Less pages to click through
+- Add/delete/update on same page
+- Make code more modular (like create/update php files)
+- Update pages in a different way
 
 ## Contents:
 - [How to upload XML file](#how-to-upload-xml-file)
