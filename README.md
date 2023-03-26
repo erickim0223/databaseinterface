@@ -1,5 +1,5 @@
 # Database Interface
-This project is a responsive personal website to introduce myself and showcase some of my projects. I made this project to learn Bootstrap and enhance my web development ability. <br>
+This project is a responsive PHP website to interact with customer and order data. I made this project to enhance my understanding of both programming with PHP and database interaction with a website. <br>
 Languages/Technologies used:
 - PHP
 - HTML
