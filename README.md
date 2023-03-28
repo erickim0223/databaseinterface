@@ -17,7 +17,7 @@ Challenges:
 - Interacting with MySQL database
 
 Plan to add:
-- Search capability
+- Search capability for each data table
 - Less pages to click through
 - Add/delete/update on same page
 - Make code more modular (like create/update php files)
