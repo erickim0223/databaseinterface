@@ -1,5 +1,5 @@
 # Database Interface
-This project is a responsive PHP website to interact with customer and order data. I made this project to enhance my understanding of both programming with PHP and database interaction with a website. <br>
+This project is a responsive PHP website to interact with customer and order data. I made this project to enhance my understanding of both programming with PHP and the interaction of a MySQL database with a website. <br>
 Languages/Technologies used:
 - PHP
 - HTML
