@@ -10,8 +10,6 @@ Languages/Technologies used:
 - MySQL 
 <br>
 
-If you want to upload your own XML file, click here: [https://erick.sgedu.site/databaseinterface/upload.html](https://erick.sgedu.site/databaseinterface/upload.html) <br>
-If you want to go straight to the interface, which already has sample data inserted, click here: [https://erick.sgedu.site/databaseinterface/interface.php](https://erick.sgedu.site/databaseinterface/interface.php) <br>
 Challenges:
 - Learning PHP
 - Interacting with MySQL database
